@@ -1,0 +1,60 @@
+I copied a Table CSS style sheet from the web and put it in the Templates folder. Link that stylesheet to your .php/html file and then use this table layout for displaying large amounts of info. This will allow us to have a similar table layout format across the website.
+
+
+
+
+HTML code to use the table layout:
+
+<div class="datagrid">
+	<table>
+		<thead>
+			<tr>
+				<th>header</th>
+				<th>header</th>
+				<th>header</th>
+				<th>header</th>
+			</tr>
+		</thead>
+		<tfoot>
+			<tr>
+				<td colspan="4">
+					<div id="paging">
+						<ul><li><a href="#"><span>Previous</span></a></li><li><a href="#" class="active"><span>1</span></a></li><li><a href="#"><span>2</span></a></li><li><a href="#"><span>3</span></a></li><li><a href="#"><span>4</span></a></li><li><a href="#"><span>5</span></a></li><li><a href="#"><span>Next</span></a></li></ul>
+					</div>
+				</td>
+			</tr>
+		</tfoot>
+		<tbody>
+			<tr>
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+			</tr>
+			<tr class="alt">
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+			</tr>
+			<tr>
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+			</tr>
+			<tr class="alt">
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+			</tr>
+			<tr>
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+				<td>data</td>
+			</tr>
+		</tbody>
+	</table>
+</div>

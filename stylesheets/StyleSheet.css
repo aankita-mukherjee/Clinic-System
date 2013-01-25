@@ -1,0 +1,199 @@
+/*  CS2102 Group 16
+    StyleSheet for The Cinic
+  */
+
+html { 
+    overflow-y:  scroll;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+        background-color: #000; 
+        height: 100%;
+        width: 100%;
+    }
+
+/*Keep logo in place*/
+#top  { 
+    padding: .5em;
+    border: bottom 1px solid black;
+    margin: 0
+} 
+	
+/*Menu list to the left*/
+ul
+{
+list-style-type:none;
+margin:0;
+float:  left;
+padding:16px;
+}
+a:link,a:visited
+{
+display:block;
+font-family: Orator std;
+font-weight:bold;
+color:#000;
+background-color:#fff;
+width:210px;
+text-align:left;
+padding:15px;
+text-decoration:none;
+text-transform:uppercase;
+}
+a:hover,a:active
+{
+background-color:#ef2a2a;
+}
+
+/*Area to the right of menu and under logo*/
+div.workspace { 
+    float:  left;
+    margin-left:  50px;
+    font-family: Calibri; 
+    /*border:  1px solid grey;*/ 
+    width: 600px;
+    height: 350px;}
+	 
+ /*The Big red header*/  
+#h1{ 
+    float:  left;
+    color:#ef2a2a;
+    font-size: 38px;
+    font-family: Calibri; 
+    /*border:  1px solid grey; */
+    width: 600px;
+    height: 50px;}
+
+ /*For additional headers if needed (look the same but slighty smaller)*/  
+.h{ 
+    float:  left;
+    color:#ef2a2a;
+    font-size: 28px;
+    font-family: Calibri; 
+    /*border:  1px solid grey; */
+    width: 600px;
+    height: 50px;}	
+
+/*First paragraf*/  
+#para1{ 
+    
+    float:  left;
+    /*border:  1px solid grey; */ 
+    font-family: Calibri; 
+    width: 600px;
+    color:#fff;
+    height: 300px;
+    font-size:  20px;}
+
+/*Second paragraf (like first paragraf but smaller text if needed)*/  
+#para2{ 
+    
+    float:  left;
+    /*border:  1px solid grey; */ 
+    font-family: Calibri; 
+    width: 600px;
+    color:#fff;
+    height: 300px;
+    font-size:  10px;}
+
+/*To align for form-elements e.g add visit/patient/drug*/
+.createform { 
+    
+    width:  4px;
+    float: left;
+    text-align:  right;
+    margin-right:  0.5em;
+    display: block;}
+
+#para3{ 
+    float:  left;
+    /*border:  1px solid grey; */ 
+    font-family: Calibri; 
+    width: 900px;
+    color:#fff;
+    font-size:  20px;}
+
+/*Simple Button-class*/
+.button {
+ 
+ background: #696269;
+ background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#696269));
+ background: -webkit-linear-gradient(top, #ffffff, #696269);
+ background: -moz-linear-gradient(top, #ffffff, #696269);
+ background: -ms-linear-gradient(top, #ffffff, #696269);
+ background: -o-linear-gradient(top, #ffffff, #696269);
+ padding: 5px 12px;
+
+ -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+ -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+ box-shadow: rgba(0,0,0,1) 0 1px 0;
+ text-shadow: rgba(0,0,0,.4) 0 1px 0;
+ color: #030203;
+ font-size: 16px;
+ font-family: Calibri;
+ text-decoration: none;
+ vertical-align: middle;
+ }
+ .button:hover {
+ border-top-color: #ef2a2a;
+ background: #ef2a2a;
+ color: #fcfcfc;
+ }
+ .button:active {
+ border-top-color: #ffffff;
+ background: #ffffff;
+ }
+
+/*larger workspace*/
+div.workspace_edit { 
+    float:  left;
+    margin-left:  50px;
+    font-family: Calibri; 
+    /*border:  1px solid grey;*/ 
+    width: 900px;
+    height: 350px;}
+	 
+#h1{ 
+    float:  left;
+    color:#ef2a2a;
+    font-size: 38px;
+    font-family: Calibri; 
+    /*border:  1px solid grey; */
+    width: 600px;
+    height: 50px;}
+
+/*Table styles*/
+table {
+    border-collapse: collapse;
+}
+table, tr {
+    width: 900px;
+    color:#fff;
+    font-size:  20px;
+    border: 2px solid white;
+}
+td, th {
+    padding: 5px;
+    alignment-adjust: middle;
+    text-align: left;
+}
+th {
+    color: #f3fc83;
+    text-transform: uppercase;
+}
+a.edit:link,a.edit:visited
+{
+display:block;
+color:#000;
+background-color:#fff;
+width:50px;
+text-align:center;
+padding:5px;
+text-decoration:none;
+}
+a.edit:hover,a.edit:active
+{
+color:#008;
+}
